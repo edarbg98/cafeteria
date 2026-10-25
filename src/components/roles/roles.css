@@ -1,0 +1,32 @@
+.div-padre {
+  border: 1px solid rgb(244, 164, 233);
+  padding: 24px;
+  display: grid;
+  grid-template-areas: 
+  "titulo titulo titulo"
+  "soporte rush curador";
+  gap: 12px;
+  border-radius: 12px;
+}
+
+.titulo-padre {
+  grid-area: titulo;
+}
+
+.soporte {
+  grid-area: soporte;
+  border: 1px solid rgb(244, 164, 233);
+  padding: 24px;
+}
+
+.rush {
+  grid-area: rush;
+  border: 1px solid rgb(244, 164, 233);
+  padding: 24px;
+}
+
+.curador {
+  grid-area: curador;
+  border: 1px solid rgb(244, 164, 233);
+  padding: 24px;
+}
