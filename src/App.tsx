@@ -26,7 +26,6 @@ function App() {
           </nav>
           <Routes>
             <Route element={<Seguridad permiso={true} />}>
-              <Route index element={<Navigate to="/Productos" replace/>}/>
               <Route path="/Productos" element={<Productos />} />
               <Route path="/Disponible" element={<Disponible />} />
             </Route>
